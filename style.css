@@ -1,0 +1,116 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family:"Jazz LET",fantasy;
+  background-color: black;
+}
+
+header{
+  height: 100vh;
+}
+
+h1{
+  margin-left: 20px;
+}
+
+ul{
+  list-style-type: none;
+  float: right;
+  margin-top: 25px;
+  margin-right: 35px;
+}
+
+ul li{
+  display: inline-block;
+}
+
+ul li a{
+  text-decoration: none;
+  color: white;
+  padding: 5px 20px;
+  border: 1px solid white;
+  transition: 0.6s ease;
+}
+
+ul li a:hover{
+  background-color: white;
+  color: #000;
+}
+
+ul li.active a{
+  background-color: white;
+  color: #000;
+}
+
+.homePic img{
+  position: absolute;
+  top: 10%;
+  right: 3%;
+  width: auto;
+  height: auto;
+}
+
+.main{
+  max-width: 1200px;
+  margin: auto;
+}
+
+.title{
+  position: absolute;
+  top: 1%;
+  left: 1%;
+  color: white;
+  transform: translate(0%,0%);
+  font-family:"Jazz LET",fantasy;
+}
+
+.name{
+  position: absolute;
+  left:10%;
+  top:60%;
+  color: white;
+  transform: translate(-1%,-10%);
+  font-family:"Jazz LET",fantasy;
+}
+
+.introduction{
+  position: absolute;
+  font-size: 40px;
+  left:50%;
+  top:50%;
+  color: white;
+  transform: translate(-50%,-50%);
+  font-family:"Jazz LET",fantasy;
+}
+
+.contact{
+  position: absolute;
+  font-size: 50px;
+  left:50%;
+  top:50%;
+  color: white;
+  transform: translate(-50%,-50%);
+  font-family:"Jazz LET",fantasy;
+}
+
+.picture{
+  text-align: center;
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  font-size: 30px;
+  color:white;
+  width: auto;
+  height: auto;
+}
+
+.favorite{
+  text-align:center;
+  position:absolute;
+  top: 10%;
+  left: 3%;
+  font-size: 30px;
+  color:white;
+  width: auto;
+  height: auto;
+}
